@@ -65,7 +65,11 @@ body{
     background-color: black;
 }
 
-@media screen and (max-width : 760px) {
+@media screen and (max-width : 780px) {
+    html{
+        font-size: 50%;
+        
+    }
     #time{
         text-align: center;
     }
@@ -75,24 +79,11 @@ body{
     }
     .txt{
         font-size: 100px;
-       
-    }
-}
-@media screen and (max-width : 550px) {
-    #time{
-        text-align: center;
-    }
-    .digit{
-        font-size: 70px;
-        
-    }
-    .txt{
-        font-size: 70px;
        
     }
 }
 
-@media (max-width:550px){
+@media screen and (max-width : 550px){
 
     html{
         font-size: 50%;
