@@ -64,3 +64,55 @@ body{
 #reset:hover{
     background-color: black;
 }
+
+@media screen and (max-width : 760px) {
+    #time{
+        text-align: center;
+    }
+    .digit{
+        font-size: 100px;
+        
+    }
+    .txt{
+        font-size: 100px;
+       
+    }
+}
+@media screen and (max-width : 550px) {
+    #time{
+        text-align: center;
+    }
+    .digit{
+        font-size: 70px;
+        
+    }
+    .txt{
+        font-size: 70px;
+       
+    }
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+        
+    }
+    .header{
+        font-size: 3.5rem;
+    }
+    #time{
+        text-align: center;
+    }
+    .digit{
+        font-size: 60px;
+        
+    }
+    .txt{
+        font-size: 60px;
+       
+    }
+    #reset{
+        margin-top: 10px;
+    }
+}
